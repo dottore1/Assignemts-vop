@@ -26,20 +26,35 @@ public class Opgave4 {
     public void readFile() {
         double[] doubles = new double[20];
         double sum = 0;
+        int i = 0;
         while (input.hasNextLine()) {
-            int i = 0;
-            int k = 0;
             String temp = input.nextLine();
             double converted = Double.parseDouble(temp);
             doubles[i] = converted;
-            System.out.println(doubles[i]);
             sum += doubles[i];
             i++;
-            
-           
-
         }
+
+        double tempmin = 0;
+        double tempmax = 0;
+
+        for (int k = 0; k < 19; k++) {
+            tempmin = doubles[0];
+            if (tempmin > doubles[k + 1]) {
+                tempmin = doubles[k + 1];
+
+            }
+            tempmax = doubles[0];
+            if (tempmax < doubles[k + 1]) {
+                tempmax = doubles[k + 1];
+
+            }
+        }
+        System.out.println(tempmin);
+        System.out.println(tempmax);
         System.out.println(sum);
+        System.out.println(sum / 20);
+
     }
 
     public static void main(String[] args) {
