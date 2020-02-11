@@ -1,4 +1,4 @@
-package danish_islands;
+package vopmodul22;
 
 
 public class DanishIsland {
