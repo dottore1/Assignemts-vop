@@ -64,6 +64,7 @@ public class Opgave4 {
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Opgave4.class.getName()).log(Level.SEVERE, null, ex);
         }
+       
     }
 
 }

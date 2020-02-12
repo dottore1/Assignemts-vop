@@ -26,9 +26,9 @@ public class CamelWriter {
     }
 
     public void readLines() {
-
+        Scanner input = null;
         try {
-            Scanner input = new Scanner(this.inFile);
+             input = new Scanner(this.inFile);
 
             while (input.hasNextLine()) {
                 convert2camel(input.nextLine());
@@ -39,6 +39,9 @@ public class CamelWriter {
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         }
+        finally{
+            input.close();
+        }
     }
 
     private void convert2camel(String line) {
@@ -48,14 +51,8 @@ public class CamelWriter {
             String delimiter = " ";
             words = line.split(delimiter);
 
-            String lowercase = "";
             if (words.length != 0) {
-                char[] chars = words[0].toCharArray();
-                for (char c : chars) {
-                    lowercase += Character.toLowerCase(c);
-                    toPrint += lowercase;
-
-                }
+                toPrint += words[0].toLowerCase();
 
                 for (int i = 1; i < words.length; i++) {
                     char[] toUppercase = words[i].toCharArray();
