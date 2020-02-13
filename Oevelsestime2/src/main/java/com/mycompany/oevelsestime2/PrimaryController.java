@@ -69,17 +69,15 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private void handleSave(ActionEvent event) {
-        saveFile = chooser.showOpenDialog(btnDestroyAll.getScene().getWindow());
+        saveFile = chooser.showSaveDialog(btnDestroyAll.getScene().getWindow());
         PrintWriter pw = null;
         try {
             pw = new PrintWriter(saveFile);
             pw.write(txtArea.getText());
-            
-            
+
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
-        }
-        finally{
+        } finally {
             pw.close();
         }
 
@@ -88,7 +86,9 @@ public class PrimaryController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         chooser = new FileChooser();
+        FileChooser.ExtensionFilter extention = new FileChooser.ExtensionFilter("TXT files(*.txt)", "*.txt");
         chooser.setInitialDirectory(new File("."));
+        chooser.getExtensionFilters().add(extention);
 
     }
 

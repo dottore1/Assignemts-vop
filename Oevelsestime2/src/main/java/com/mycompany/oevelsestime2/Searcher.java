@@ -47,7 +47,6 @@ public class Searcher {
         } finally {
             input.close();
         }
-        System.out.println(toPrint);
         return toPrint;
     }
 }
