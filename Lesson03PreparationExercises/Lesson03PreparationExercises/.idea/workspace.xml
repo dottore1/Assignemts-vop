@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8273c6e-a175-4acd-8d38-d7d1367f73d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YOuTedQniK2XNxOi6K92lILdXl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson03PreparationSolutions" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Lesson03PreparationSolutions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Lesson03PreparationSolutions" />
+      <recent name="$PROJECT_DIR$/../Lesson03PreparationSolutions/src" />
+      <recent name="$PROJECT_DIR$/../Lesson03PreparationSolutions/src/main/java" />
+      <recent name="$PROJECT_DIR$/../Lesson03PreparationSolutions/src/main/java/liang21_7_keywords" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TextAnalyzer (1)">
+    <configuration name="CountKeywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang21_7_keywords.CountKeywords" />
+      <module name="Lesson03PreparationSolutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liang21_7_keywords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable_exercise.Person" />
+      <module name="Lesson03PreparationExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable_exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang21_8_testmap.TestMap" />
+      <module name="Lesson03PreparationSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liang21_8_testmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAnalyzer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution_text_analyser.TextAnalyzer" />
+      <module name="Lesson03PreparationSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution_text_analyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution_text_analyser.TextAnalyzer" />
+      <module name="Lesson03PreparationSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution_text_analyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise_text_analyser.TextAnalyzer" />
+      <module name="Lesson03PreparationSolutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.exercise_text_analyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CountKeywords" />
+      <item itemvalue="Application.Person" />
+      <item itemvalue="Application.TestMap" />
+      <item itemvalue="Application.TextAnalyzer" />
+      <item itemvalue="Application.TextAnalyzer (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TextAnalyzer (1)" />
+        <item itemvalue="Application.CountKeywords" />
+        <item itemvalue="Application.TextAnalyzer" />
+        <item itemvalue="Application.TextAnalyzer" />
+        <item itemvalue="Application.TestMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8273c6e-a175-4acd-8d38-d7d1367f73d4" name="Default Changelist" comment="" />
+      <created>1582825970232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582825970232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="617" y="219" key="#Project_Structure" timestamp="1582825989054">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="219" key="#Project_Structure/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582825989054" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582913404284">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582913404284" />
+    <state x="805" y="315" key="FileChooserDialogImpl" timestamp="1582907571219">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="315" key="FileChooserDialogImpl/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582907571219" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582913463290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826145752" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582913463290" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582913463287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826145752" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582913463287" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582913463286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826145752" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582913463286" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582913463287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826145752" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582913463287" />
+    <state x="465" y="265" key="new project wizard" timestamp="1582826141026">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="265" key="new project wizard/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826141026" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1582826075186">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/-1920.720.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1582826075186" />
+  </component>
+</project>
