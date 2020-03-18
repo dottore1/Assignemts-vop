@@ -76,7 +76,6 @@ public class DanishIslandFileReader {
         DanishIslandFileReader fr = new DanishIslandFileReader("Islands punktum.txt");
         //DanishIslandFileReader fr = new DanishIslandFileReader("Islands komma.txt");
         fr.readFile();
-
         System.out.println("Result:\n" + fr.getList());
 
     }

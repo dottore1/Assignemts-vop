@@ -21,7 +21,7 @@ public class CamelWriter {
     private File inFile;
 
     public CamelWriter(String fName) {
-        this.inFile = new File("C:\\Users\\Nichlas\\Desktop\\" + fName + ".txt");
+        this.inFile = new File(fName);
 
     }
 
