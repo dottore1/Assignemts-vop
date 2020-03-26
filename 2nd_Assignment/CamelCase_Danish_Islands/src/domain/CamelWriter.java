@@ -3,14 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vopmodul22;
+package domain;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.event.SwingPropertyChangeSupport;
 
 /**
  *
@@ -21,14 +18,14 @@ public class CamelWriter {
     private File inFile;
 
     public CamelWriter(String fName) {
-        this.inFile = new File(fName);
+        this.inFile = new File("C:\\Users\\Nichlas\\Desktop\\" + fName + ".txt");
 
     }
 
     public void readLines() {
-
+        Scanner input = null;
         try {
-            Scanner input = new Scanner(this.inFile);
+            input = new Scanner(this.inFile);
 
             while (input.hasNextLine()) {
                 convert2camel(input.nextLine());
@@ -39,6 +36,9 @@ public class CamelWriter {
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         }
+        finally{
+            input.close();
+        }
     }
 
     private void convert2camel(String line) {
@@ -48,14 +48,8 @@ public class CamelWriter {
             String delimiter = " ";
             words = line.split(delimiter);
 
-            String lowercase = "";
             if (words.length != 0) {
-                char[] chars = words[0].toCharArray();
-                for (char c : chars) {
-                    lowercase += Character.toLowerCase(c);
-                    toPrint += lowercase;
-
-                }
+                toPrint += words[0].toLowerCase();
 
                 for (int i = 1; i < words.length; i++) {
                     char[] toUppercase = words[i].toCharArray();

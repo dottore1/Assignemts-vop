@@ -1,0 +1,15 @@
+/**
+ * Hellomoon Example for use during the VOP exam F15
+ * @author erso   Created on 15-05-2015, 10:19:06
+ */
+public class Hellomoon {
+
+    public Hellomoon() {
+        System.out.println("Hellomoon");
+    }
+
+
+    public static void main(String[] args) {
+        Hellomoon hellomoon = new Hellomoon();
+    }
+}
